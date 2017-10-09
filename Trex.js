@@ -105,7 +105,7 @@
     Runner.config = {
         ACCELERATION: 0.001,
         BG_CLOUD_SPEED: 0.2,
-        BOTTOM_PAD: 10,
+        BOTTOM_PAD: 100,
         CLEAR_TIME: 3000,
         CLOUD_FREQUENCY: 0.5,
         GAMEOVER_CLEAR_TIME: 750,
@@ -115,7 +115,7 @@
         INVERT_FADE_DURATION: 18000,
         INVERT_DISTANCE: 700,
         MAX_BLINK_COUNT: 3,
-        MAX_CLOUDS: 6,
+        MAX_CLOUDS: 4,
         MAX_OBSTACLE_LENGTH: 3,
         MAX_OBSTACLE_DUPLICATION: 2,
         MAX_SPEED: 13,
@@ -133,7 +133,7 @@
      */
     Runner.defaultDimensions = {
         WIDTH: DEFAULT_WIDTH,
-        HEIGHT: 150
+        HEIGHT: 240
     };
 
 
