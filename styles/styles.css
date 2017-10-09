@@ -3,7 +3,7 @@
 }
 
 body{
-	cursor: url(../images/cursor.cur),auto;
+	/* cursor: url(../images/cursor.cur),auto; */
 	height: 100%;
 }
 
@@ -68,8 +68,25 @@ body{
   display: none;
 }
 
-#Koekel{
+#Imagoes{
 	margin-left: auto;
 	margin-right: auto;
-	width: 600px;
+	width: 50%;
+}
+
+#Koekel{
+	background-color: white;
+}
+
+#Footer{
+	background-color: white;
+	height: auto;
+	width: 100%;
+	position: bottom;
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
